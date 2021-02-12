@@ -1,0 +1,18 @@
+body {
+    text-align: center;
+}
+
+video {
+    width: 0px;
+    height: 0px;
+}
+
+table {
+    width: auto;
+    margin: auto;
+}
+
+tr, td {
+    border: 0px;
+    text-align: center; 
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>AI object detection</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+</head>
+
+<body>
+  <h2 id="loadingText">Loading...</h2>
+  <video playsinline autoplay muted controls="true" id="video"></video>
+  <br><br>
+  <canvas id="c1"></canvas>
+  <br><br>
+  <table>
+    <tr>
+      <td>AI:</td>
+      <td>
+        <div class="switch">
+          <label>
+            Off
+            <input type="checkbox" id="ai" disabled>
+            <span class="lever"></span>
+            On
+          </label>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td>FPS:</td>
+      <td>
+        <p class="range-field">
+          <input type="range" id="fps" min="1" max="60" value="50">
+        </p>
+      </td>
+    </tr>
+  </table>
+
+  <script>
+    var modelIsLoaded = false;
+
+    // Create a ObjectDetector method
+    const objectDetector = ml5.objectDetector('cocossd', {}, modelLoaded);
+
+    // When the model is loaded
+    function modelLoaded() {
+      console.log("Model Loaded!");
+      modelIsLoaded = true;
+    }
+  </script>
+  <script src="video.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+
+</html>
