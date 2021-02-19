@@ -33,3 +33,4 @@ Probably this will work with the most browsers, but here is a list which browser
 
 ## ✌️ Credits
 - [ml5js](https://ml5js.org/)
+- Materialize
