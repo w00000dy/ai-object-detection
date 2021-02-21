@@ -32,5 +32,5 @@ Probably this will work with the most browsers, but here is a list which browser
 |     Chrome     |     ✅     |
 
 ## ✌️ Credits
+- [Materialize](https://materializecss.com/)
 - [ml5js](https://ml5js.org/)
-- Materialize
