@@ -14,7 +14,7 @@ This is a web AI object detection. You can use it in your web browser. This web 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 ## 💪 Try it
-If you are not convinced yet just try it out here: https://woody.pizza/tensorflow/
+If you are not convinced yet just try it out here: https://woody.pizza/tensorflow/object-detection/
 
 ## 🌐 Multiple browser support
 Probably this will work with the most browsers, but here is a list which browsers I have tested: 
