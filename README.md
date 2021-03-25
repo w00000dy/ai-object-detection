@@ -8,10 +8,7 @@ This is a web AI object detection. You can use it in your web browser. This web 
 - ✅ Range slider to control frame rate
 
 ## 🖼️ Images
-<img src="https://i.ibb.co/XCDKyCV/Screenshot-20210217-222523.jpg" alt="Screenshot-20210217-222523" border="0" width="40%" align="right">
-<img src="https://i.ibb.co/f2YZqgb/Screenshot-20210217-222631.jpg" alt="Screenshot-20210217-222631" border="0" width="40%" align="left">
-
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<a href="https://ibb.co/Pj2j9cP"><img src="https://i.ibb.co/SykydtM/preview-combined.jpg" alt="preview" width="100%"></a>
 
 ## 💪 Try it
 If you are not convinced yet just try it out here: https://woody.pizza/tensorflow/object-detection/
